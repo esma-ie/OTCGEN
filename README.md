@@ -3,13 +3,15 @@
 OTCGEN is an open energy-system model of a single city, for the IEA-ETSAP
 TIMES model generator. It is built to be adapted to any city: the city
 itself is one region, and the eGRID subregion that supplies its
-electricity is a second. It is developed and maintained by Energy Systems
-Modelling Analytics Ltd (ESMA), Galway, Ireland, and published under an
-open licence (CC BY-SA 4.0).
+electricity is a second. As released by the US EPA, and so at its
+starting point here, it is populated with data for New York City. It is
+developed and maintained by Energy Systems Modelling Analytics Ltd (ESMA),
+Galway, Ireland, and published under an open licence (CC BY-SA 4.0).
 
-> **Status: being set up.** The US EPA's Generative COMET v0.0.0 as
-> released (to be tagged `gcomet-v0.0.0`) and its GAMS-ready export
-> (`dd/`) are added next. ESMA's redevelopment follows as later commits.
+> **Status: under redevelopment.** This repository holds the Veda model
+> of the US EPA's Generative COMET v0.0.0 as released (tag
+> `gcomet-v0.0.0`) and the GAMS-ready export of its reference scenario,
+> GC_REF (`dd/`). ESMA's redevelopment follows as later commits.
 
 ## Not a US EPA model
 
@@ -47,9 +49,15 @@ How provenance is kept in this repository:
 1. **The original first.** The first model commit holds the Generative
    COMET files exactly as released by the US EPA, unchanged. The commit
    message names the release and gives the SHA-256 checksum of the source
-   archive, and the commit is tagged `gcomet-v0.0.0`. Anything the import
-   leaves out is listed in that commit with its size and SHA-256 checksum.
-   Workbook properties and external links are as the US EPA released them.
+   archive, and the commit is tagged `gcomet-v0.0.0`. The import holds the
+   Veda model (the release's folder `COMET_Generative_NYC/`) and leaves out
+   two folders that Veda does not read to build the model: `Working_files/`
+   (1.4 GB: the raw public data and generator workbooks for building a
+   city's model, with copies for New York City and Chicago; one file is
+   larger than GitHub's 100 MB limit) and `Exported_files/` (50 MB of
+   results). They stay in the EPA archive; the import commit lists their
+   names, sizes and SHA-256 checksums. Workbook properties and external
+   links are as the US EPA released them.
 2. **ESMA's changes after it.** Every change ESMA makes follows as later
    commits, so `git diff gcomet-v0.0.0` shows exactly how OTCGEN differs
    from the US EPA's original.
