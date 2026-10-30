@@ -1,0 +1,107 @@
+{
+ "from": "C:\\git\\esma\\timesjl-sources\\_pending\\OTCGEN\\GC_REF (Veda export of 30 Oct 2026, checked 30 Oct 2026)",
+ "imported": "2026-10-30",
+ "layout": "dd/<scenario>/<scenario>.run + *.dd",
+ "model": "OTCGEN",
+ "scenarios": {
+  "gc_ref": {
+   "files": {
+    "base.dd": {
+     "bytes": 1029360,
+     "sha256": "676c0d02d3910fdfe4f9f2c23cb709f47ddf4d8bad3f1ae975f975f32aad1bb6"
+    },
+    "cplex.opt": {
+     "bytes": 118,
+     "sha256": "9fedc3111ef5a07d27c961d28afa39f0fe49ccdec22ee9faa155d413404074fd"
+    },
+    "demand.dd": {
+     "bytes": 38485,
+     "sha256": "e014b96904f55934b1ee0cea11e161ac9c975217dea423a04a3b38f33de1bd06"
+    },
+    "gc_ref.run": {
+     "bytes": 2316,
+     "sha256": "794217a47473f4c15ba0bf78a743d8cc22558cf7ff19a62182877045305178af"
+    },
+    "gc_ref_ts.dd": {
+     "bytes": 98,
+     "sha256": "a0e0e428646d7f195859f8d7119423ef4558ab3cbc953c9109c2628e7ae04d51"
+    },
+    "gdr.dd": {
+     "bytes": 315,
+     "sha256": "a6e92bc4fccbbc224147bd895f56512a514dffe4c3004c805486777ffc33f098"
+    },
+    "ghg_ipcc.dd": {
+     "bytes": 1999864,
+     "sha256": "27e57b1d11aba8e53d17e46af3513ee3467158d4cda96a4c5fcee854837cd07f"
+    },
+    "growth_elc.dd": {
+     "bytes": 64839,
+     "sha256": "cd22a5b6993c8e8ff12a5445d47dab6373ee104efce7923aff763c5b56ab2d49"
+    },
+    "pollutants.dd": {
+     "bytes": 1165688,
+     "sha256": "ebfaa4af6d4c1f6b2a00b588444ce54724c959955a555a3ccb616df23923311c"
+    },
+    "syssettings.dd": {
+     "bytes": 154510,
+     "sha256": "80e77b709b98f6573b491430ea084d70a4dd45b13dd09b4a1d3c8f2d355e3d55"
+    },
+    "techcom.dd": {
+     "bytes": 2020647,
+     "sha256": "6179dc794e88d22d92199384beb8ad194be0fdb32e9c3dfac500132457faa0ae"
+    },
+    "techelc.dd": {
+     "bytes": 659826,
+     "sha256": "be6bfdb19d9911a2fdfe7c3cdb1ef5f48f680d1b0094f280e8d25ecbdd35db3a"
+    },
+    "techind.dd": {
+     "bytes": 9059,
+     "sha256": "a9c96e2e897aa4243fdcee9a770985084d7161243c0e809d8b5f39f3b9e8a1fb"
+    },
+    "techres.dd": {
+     "bytes": 2430859,
+     "sha256": "37c384287ebd9191ebea61b4da0c01a0312420bf64289d10c6e7a933c0f4a021"
+    },
+    "techret.dd": {
+     "bytes": 131175,
+     "sha256": "adabbe75c67f8161d6effa481f1bd36e685d160e144732189943ef70f8e9b9a4"
+    },
+    "techtra.dd": {
+     "bytes": 337735,
+     "sha256": "26ca5e016c0f03f23c693c866de6f5d86a637d4680754f241a206ec4f1a87b26"
+    },
+    "techwas.dd": {
+     "bytes": 57144,
+     "sha256": "3943b1611e85ecf333998cc6df9905428a69aeaedf240cb43c7fea52613e7b07"
+    },
+    "times2veda.vdd": {
+     "bytes": 4616,
+     "sha256": "91d653ee70ea4185999b30b2977d4a8eee61732d0f783029ef5898f2ff59f49f"
+    },
+    "tradeparam.dd": {
+     "bytes": 1943,
+     "sha256": "471949d32efca2095c1a11c69919bed64d397a20ff97f2e5b09ea573cc3d12d2"
+    },
+    "uc_com.dd": {
+     "bytes": 47958,
+     "sha256": "318f93f999dd1299feeea75c5cbeec462da5ee5b3878ac4ee8186c08eb89b7d8"
+    },
+    "uc_ind.dd": {
+     "bytes": 11421,
+     "sha256": "5bd22940e630646a7be81d1f037a1807c0f0016b666a4172f5ac949027f4035b"
+    },
+    "uc_res.dd": {
+     "bytes": 505074,
+     "sha256": "783bfdee39a9164bead9aafa6c39a9fc0b2b29cc903e95f0bfebbfeea62de844"
+    },
+    "uc_tra.dd": {
+     "bytes": 56903,
+     "sha256": "f43d014d9bc3815dd1b8cf3f51f2cfaab677e94b4dac4ca0934520b521110705"
+    }
+   },
+   "n_dd": 20,
+   "run": "gc_ref.run"
+  }
+ },
+ "source": "esma-ie/OTCGEN (CC BY-SA 4.0; EPA Generative COMET v0.0.0 origin, US public domain)"
+}
